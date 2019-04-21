@@ -1,6 +1,5 @@
 ## Requirements
 
-- Rebuild busybox on debian with `CONFIG_TCPSVD=y`
 - Uninstall dropbear if previously installed
 - Add scripts in `/etc/initramfs-tools`
 - Add `authorized_keys` to `/etc/tinyssh-initramfs/authorized_keys` (only ssh-ed25519)
